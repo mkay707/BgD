@@ -8,6 +8,8 @@ import FeaturesSection from './components/FeaturesSection';
 import ShowcaseSection from './components/ShowcaseSection';
 import TestimonialsSection from './components/TestimonialsSection';
 import ContactSection from './components/ContactSection';
+// import MapComponent from './components/MapComponent';
+import Map from './components/MapBox';
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
             <Route path="/contact" element={<ContactSection />} />
             {/* Add additional routes here */}
           </Routes>
+          <Map />
         </main>
         <footer>
           {/* Footer content goes here */}
